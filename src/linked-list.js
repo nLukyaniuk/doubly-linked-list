@@ -105,9 +105,7 @@ class LinkedList {
     }
 
     reverse() {
-        var head = this._head,
-            tail = this._tail,
-            current = this._head,
+        var current = this._head,
             tmp;
         while(current) {
             if (!current.prev) {
